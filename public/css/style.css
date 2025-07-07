@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+nav{
+    margin-bottom: 1em;
+}
+
+form[class="form form-new-task dm-sans-regular"]{
+    color: #272727;
+    border-radius: 10px;
+    padding: 1.5em;
+    background-color: #ff8181;
+    color: #272727;
+}
+
+form{
+    color: #272727;
+    border-radius: 10px;
+    padding: 1.5em;
+}
+
+.box-task{
+    height: 30vh;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    overflow-y: auto;
+    white-space: line;
+    word-break: break-all;
+}
+
+h1{
+    font-size: 1.6em;
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+small{
+    font-size: 0.9em;
+}
+
+a{
+    color: #272727;
+}
+
+a:hover{
+    border-bottom: 1px solid #272727;
+    text-decoration: none;
+    color: #272727;
+}
+
+.btn-primary{
+    border: solid 1px #272727;
+    background-color: #272727;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.btn-primary:hover{
+    border: solid 1px #272727;
+    background-color: #FFFFFF;
+    color: #272727;
+    border-radius: 100px;
+}
+
+.btn-secondary{
+    border: solid 1px #272727;
+    background-color: #FFFFFF;
+    color: #272727;
+    border-radius: 100px;
+}
+
+.btn-secondary:hover{
+    border: solid 1px #FFFFFF;
+    background-color: #272727;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.btn-delete{
+    border: solid 1px #FFFFFF;
+    background-color: #FFFFFF;
+    color: #272727;
+    border-radius: 100px;
+}
+
+.btn-delete:hover{
+    border: solid 1px #f54f4f;
+    background-color: #f54f4f;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.dm-sans-bold {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-sans-light {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
